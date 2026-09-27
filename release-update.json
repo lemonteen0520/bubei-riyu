@@ -1,7 +1,7 @@
-{
-  "version": "1.0",
-  "versionCode": 1,
-  "apkUrl": "https://github.com/lemonteen0520/bubei-riyu/releases/download/v1.0.0/bubei-riyu-v1.0.apk",
-  "sha256": "86076dd22322f8290782291cd94b1a696c2bca0c3d63c339af86b6545299da40",
-  "notes": "不背日语 v1.0"
+﻿{
+    "version":  "1.0.1",
+    "versionCode":  2,
+    "apkUrl":  "https://github.com/lemonteen0520/bubei-riyu/releases/download/v1.0.1/bubei-riyu-v1.0.1.apk",
+    "sha256":  "86076dd22322f8290782291cd94b1a696c2bca0c3d63c339af86b6545299da40",
+    "notes":  "修复更新源地址"
 }
