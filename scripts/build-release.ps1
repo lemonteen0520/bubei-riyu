@@ -8,8 +8,11 @@ $Android = Join-Path $Root "android"
 # ---- edit these on each release ----
 $versionName = "1.0"
 $versionCode = 1
-# Public download URL for the APK (e.g. GitHub Releases link)
-$apkBaseUrl = "https://example.com/releases/bubei-riyu"
+# GitHub user/repo for APK releases
+$githubUser = "lemonteen0520"
+$githubRepo = "bubei-riyu"
+# Public download URL for the APK (GitHub Releases direct link)
+$apkBaseUrl = "https://github.com/$githubUser/$githubRepo/releases/download/v$versionName"
 # ----------------------------------
 
 $env:ANDROID_HOME = "C:\Users\86137\AppData\Local\Android\Sdk"

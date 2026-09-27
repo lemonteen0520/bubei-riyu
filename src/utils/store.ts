@@ -12,7 +12,7 @@ export const DEFAULT_STATE: AppState = {
   streak: 0,
   lastStudyDay: '',
   level: 'N5',
-  updateUrl: '',
+  updateUrl: 'https://raw.githubusercontent.com/lemonteen0520/bubei-riyu/main/release-update.json',
   version: '0.1.0',
   groupOrder: undefined,
 }

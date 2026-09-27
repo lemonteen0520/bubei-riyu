@@ -1,7 +1,7 @@
 ﻿{
     "version":  "1.0",
     "versionCode":  1,
-    "apkUrl":  "https://example.com/releases/bubei-riyu/bubei-riyu-v1.0.apk",
-    "sha256":  "30525cdb7e88eea7f85d8ee0cdf4eb0a7ff04be44546072beda5673aaf70bc88",
+    "apkUrl":  "https://github.com/lemonteen0520/bubei-riyu/releases/download/v1.0/bubei-riyu-v1.0.apk",
+    "sha256":  "86076dd22322f8290782291cd94b1a696c2bca0c3d63c339af86b6545299da40",
     "notes":  "Version 1.0"
 }
