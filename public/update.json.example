@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "versionCode": 2,
+  "apkUrl": "https://example.com/releases/bubei-riyu-0.2.0.apk",
+  "sha256": "在此填写 APK 文件的 SHA-256 校验值（小写十六进制）",
+  "notes": "新增拼写练习，优化词库导入。"
+}
