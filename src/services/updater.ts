@@ -21,8 +21,8 @@ export interface UpdateProgress {
   message: string
 }
 
-export const CURRENT_VERSION = '0.1.0'
-export const CURRENT_VERSION_CODE = 1
+export const CURRENT_VERSION = '1.0.1'
+export const CURRENT_VERSION_CODE = 2
 
 async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(url, { cache: 'no-store' })

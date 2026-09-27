@@ -52,7 +52,10 @@ git -c user.email="lemonteen0520@users.noreply.github.com" -c user.name="lemonte
 git push origin main
 Pop-Location
 
-Write-Host "4/4 Done."
+Write-Host "4/4 Purging jsDelivr cache ..."
+Invoke-WebRequest -Uri "https://purge.jsdelivr.net/gh/$githubUser/$githubRepo@main/release-update.json" -UseBasicParsing -TimeoutSec 30 | Out-Null
+
+Write-Host "Done."
 Write-Host "APK     : $apkDest"
 Write-Host "SHA256  : $sha"
-Write-Host "Update  : https://raw.githubusercontent.com/$githubUser/$githubRepo/main/release-update.json"
+Write-Host "Update  : https://cdn.jsdelivr.net/gh/$githubUser/$githubRepo@main/release-update.json"

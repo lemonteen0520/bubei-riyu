@@ -12,7 +12,7 @@ export const DEFAULT_STATE: AppState = {
   streak: 0,
   lastStudyDay: '',
   level: 'N5',
-  updateUrl: 'https://raw.githubusercontent.com/lemonteen0520/bubei-riyu/main/release-update.json',
+  updateUrl: 'https://cdn.jsdelivr.net/gh/lemonteen0520/bubei-riyu@main/release-update.json',
   version: '0.1.0',
   groupOrder: undefined,
 }
@@ -48,7 +48,10 @@ export function loadState(): AppState {
   try {
     const raw = localStorage.getItem(STATE_KEY)
     if (raw) {
-      return { ...DEFAULT_STATE, ...(JSON.parse(raw) as Partial<AppState>) }
+      const merged = { ...DEFAULT_STATE, ...(JSON.parse(raw) as Partial<AppState>) }
+      // 旧数据里更新源为空时，回退到默认地址
+      if (!merged.updateUrl) merged.updateUrl = DEFAULT_STATE.updateUrl
+      return merged
     }
   } catch {
     // 忽略
