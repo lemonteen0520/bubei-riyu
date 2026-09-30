@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "1.0.2",
-    "versionCode":  3,
-    "apkUrl":  "https://github.com/lemonteen0520/bubei-riyu/releases/download/v1.0.2/bubei-riyu-v1.0.2.apk",
-    "sha256":  "cba4108e7a1f7c7e5a15960e5c1b365513a71ad351cc98371cdbeea8bc302b89",
-    "notes":  "测试更新流程"
+    "version":  "1.0.3",
+    "versionCode":  4,
+    "apkUrl":  "https://github.com/lemonteen0520/bubei-riyu/releases/download/v1.0.3/bubei-riyu-v1.0.3.apk",
+    "sha256":  "e56322cf205ea6bd1ab8fb2895e171e6d33267ff9681b61be543f83b2f053185",
+    "notes":  "首页改版、清空学习记录、拼写反馈增强、修复复习判定"
 }
